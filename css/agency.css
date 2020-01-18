@@ -681,3 +681,37 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+blockquote {
+  /* font-family: Georgia, serif; */
+  /* font-size: 18px; */
+  /* font-style: italic; */
+  /* width: 500px; */
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote p:before {
+  /* display: block; */
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 50px;
+  position: absolute;
+  left: 10px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote p:after {
+  /* display: block; */
+  padding-left: 10px;
+  content: "\201D";
+  font-size: 50px;
+  position: absolute;
+  right: 40px;
+  bottom: -30px;
+  color: #7a7a7a;
+}
